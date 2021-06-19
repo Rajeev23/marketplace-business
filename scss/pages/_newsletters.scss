@@ -1,0 +1,113 @@
+.newsletter-signup-banner {
+    .newsletter-signup-container{
+        max-width: 660px;
+        margin: 0 auto;
+        padding-top: 170px;
+        text-align: center;
+        color:#fff;
+    h1 {
+        font-family: "Nunito Sans",sans-serif;
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
+        color:#fff;
+    }
+    p {    
+        font-size: 0.9rem;
+        margin-bottom: 1.5rem;
+    }
+    .newsletter-signup-form {
+        justify-content: center;
+        display: flex;
+        width:80%;
+        margin:0 auto;
+
+        .form-control {
+            margin-right: 0.7rem;
+            width:70%;
+        }
+
+        button {
+            width: 30%;
+        }
+    }
+    .newsletter-signup-message {
+        font-family: "Nunito Sans",sans-serif;
+        font-size: 1.2rem;
+        color:#fff;
+    }
+}
+}
+
+.newsletter-features-items {
+    margin-top:2rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    .newsletter-feature-item {
+        max-width:28%;
+
+        .newsletter-feature-image {
+
+        }
+        .newsletter-feature-title {
+            color:#ff5050;
+            font-size: 1.4rem;
+            margin-top: 0.7rem;
+            margin-bottom: 0.9rem;
+        }
+        .newsletter-feature-text {
+            font-size: 0.875rem;
+            color:#3d3d3d;
+            line-height: 1.2rem;
+        }
+    }
+}
+
+.text-red {
+    color:#ff5050;
+}
+
+@media screen and (max-width:991px){
+    .newsletter-features-items 
+    {
+        .newsletter-feature-item {
+            max-width:30%;
+            .newsletter-feature-title {
+                font-size: 1.1rem;
+            }
+            .newsletter-feature-text {
+                font-size: 0.8rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:767px){ 
+    .newsletter-features-items 
+    {
+        flex-direction: column;
+        .newsletter-feature-item {
+            max-width:100%;
+            margin-bottom: 2.5rem;
+            text-align: center;
+            .newsletter-feature-title {
+                font-size: 1.1rem;
+            }
+            .newsletter-feature-text {
+                font-size: 0.8rem;
+            }
+        }
+    }
+
+    .newsletter-signup-banner {
+        min-height: calc(100vh - 60px);
+       
+        .newsletter-signup-container {
+            padding-left: 1rem;
+            padding-right: 1rem;
+            .newsletter-signup-form {
+                width: 100%;
+            }
+        }
+    }
+}

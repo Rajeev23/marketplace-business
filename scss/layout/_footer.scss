@@ -1,0 +1,509 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+.footer {
+    padding-top: 1rem;
+  }
+  
+  .footer-select {
+      -webkit-appearance: none !important;
+      -moz-appearance: none !important;
+      appearance: none !important;
+      font-size: 19px !important;
+      line-height: 24px !important;
+      letter-spacing: undefined !important;
+      padding-top: undefined !important;
+      padding-bottom: undefined !important;
+      color: $mid-grey !important;
+      font-weight: 300 !important;
+      background-color: transparent !important;
+      border: none !important;
+      border-radius: 0px !important;
+      padding: 11px !important;
+      padding-right: 40px !important;
+      height: 46px !important;
+      display: block !important;
+      width: 100% !important;
+  }
+  
+  .footer-arrow {
+    position: absolute !important;
+    top: 16px !important;
+    right: 16px !important;
+    line-height: 0 !important;
+    pointer-events: none !important;
+  }
+  .footer-select-arrow {
+      font-size: 19px !important;
+      line-height: 24px !important;
+      letter-spacing: undefined !important;
+      padding-top: undefined !important;
+      padding-bottom: undefined !important;
+      color: $dark-grey !important;
+      position: relative !important;
+      background: #ffffff !important;
+      border: 1px solid $border-color !important;
+      border-radius: 2px !important;
+      margin-bottom: 8px !important;
+      display: block !important;
+      width: 100% !important;
+  }
+  
+  .footer-select-svg {
+    height: 16px;
+      width: 16px;
+      display: block;
+      fill: $dark-grey;
+  }
+  
+  .footer-select-wrapper {
+      font-size: 19px !important;
+      line-height: 24px !important;
+      letter-spacing: undefined !important;
+      padding-top: undefined !important;
+      padding-bottom: undefined !important;
+      color: $dark-grey !important;
+      position: relative !important;
+      background: #ffffff !important;
+      border: 1px solid $border-color !important;
+      border-radius: 3px !important;
+      margin-bottom: 8px !important;
+      display: block !important;
+      width: 100% !important;
+  }
+  
+  .footer-link {
+    color: $darker-grey;
+    &:hover {
+      color: $dark-grey;
+    }
+  }
+  
+  
+  .footer-column p {
+    font-size: 0.875rem;
+    line-height: 1rem;
+    color: $mid-grey;
+    margin:0;
+  }
+  
+  .footer-column {
+    width: 100%;
+    align-items: left;
+  }
+  
+  .footer-logo img {
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 20px;
+  }
+  
+  .footer-top, .footer-bottom {
+    border-top: 1px solid rgba(0,0,0,0.1);
+  }
+  .footer-divider-bottom{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+  }
+  
+  .footer-top {
+  }
+  .footer-bottom {
+    // padding-bottom: 1rem;
+  }
+  .footer-bottom svg {
+    height: 20px;
+    width: 20px;
+  }
+  
+  .footer-bottom p {
+    color: $mid-grey;
+    padding-top: 1rem;
+    font-size: 0.875rem;
+  }
+  
+  .footer-bottom span {
+    padding: 1rem;
+    padding-top:0.5rem;
+  }
+  
+  .footer-right {
+  
+    vertical-align: middle;
+    padding: 0 0 20px 0;
+  
+  }
+  
+  .footer-bottom-right, .footer-bottom-left {
+    flex-direction: row !important;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer-bottom-left {
+    margin-right : auto;
+  }
+  .footer-bottom-right {
+    margin-left: auto;
+  }
+  
+  @media (max-width: 575px) {
+  
+  .footer-bottom-right {
+    margin-right: auto;
+    margin-left: auto;
+    margin-left: 0;
+    padding-top: 1rem;
+  }
+  
+  .footer-bottom-left {
+    width:100%;
+    padding-left: 5px;
+  
+  }
+  
+  .footer-bottom-right p {
+      color: #666666;
+      font-size: 0.75rem;
+      padding-top: 0.5rem;
+      margin-bottom: 0.5rem;
+  }
+  .footer-bottom-left p {
+    color: #666666;
+    font-size: 0.75rem;
+    padding-top: 1rem;
+    margin-bottom: 0;
+    margin-right: auto;
+  }
+  .footer-bottom span {
+      padding: 1rem;
+      /* padding-top: 0.5rem; */
+      // padding: 0.5rem;
+      padding-top: 0;
+  }
+  
+  .footer-bottom {
+    padding:0;
+  }
+  
+  .footer-logo {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-logo img {
+    width: 33.33%;
+    margin-left: 0px;
+  }
+  .footer-right {
+    padding-bottom: 1.5rem;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  }
+  
+  .currency-input {
+    margin-right: auto;
+    margin-bottom:0.5rem
+  }
+  
+  @media (max-width: 575px) {
+    .dropdown-arrow-menu {
+      display: none;
+    }
+  
+  }
+  
+  .footer-bottom-right {
+  
+    .footer-bottom_mobile {
+      display: flex;
+    }
+  }
+  
+  
+  
+  // Medium devices (tablets, 768px and up)
+  @media (max-width: 768px) {
+  
+  
+    .footer-bottom-left {
+      .footer-mobile_view {
+        display: inline;
+        padding-bottom: 0;
+        
+      }
+    }
+    .footer-bottom-right  {
+      padding-top: 10px;
+    }
+  
+   
+  
+  }
+  
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) {
+  }
+  
+  // Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) {
+  }
+  
+  .dropdown-arrow-menu {
+    position: absolute;
+        top: -10px;
+        width: 20px;
+        height: 10px;
+  }
+  
+  .signout-form:hover {
+    background-color: #f8f9fa;
+    text-decoration: none;
+  }
+  
+  .dropdown-item:hover {
+    color: #666666;
+  }
+  .dark-no-hover-a.no-color:hover {
+    color: #666666;
+  }
+  
+  @media (max-width: 575px) {
+    .footer-right {
+        justify-content: inherit;
+        display: flex;
+    }
+  
+  }
+  @media (max-width: 768px) {
+  .footer-top{
+    display: flex;
+  flex-direction: column-reverse;
+  }
+  }
+  @media (max-width: 768px) {
+  .currency-input{
+  text-align: center!important;
+  }
+  }
+  @media (max-width: 768px) {
+  .footer-height-for-mobile{
+  padding-top: 2rem!important;
+  
+  }
+  }
+  @media (min-width: 768px) {
+  .footer-height-for-mobile{
+  padding: 0px !important;
+  }
+  }
+  
+  @media (max-width: 768px) {
+  .footer-panel-f3{
+  padding: 0px 0px 0px 0px !important;
+  }
+  }
+
+  .hi-am-footer{
+    color: saturation($color: #000000);
+  }
+  
+
+
+  // header
+  // .search-icon {
+  //   opacity: 0;
+  //   visibility: hidden;
+  // }
+  // .search-icon {
+  //   display: -webkit-box;
+  //   display: -moz-box;
+  //   display: -ms-flexbox;
+  //   display: -webkit-flex;
+  //   display: flex;
+  //   flex: 0 0 auto;
+  //   flex-direction: row;
+  //   align-items: center;
+  //   -webkit-flex: 0 0 auto;
+  //   -webkit-box-orient: horizontal;
+  //   -webkit-box-direction: normal;
+  //   -webkit-flex-direction: row;
+  //   -webkit-box-align: center;
+  //   -webkit-align-items: center;
+  //   transition: 0.3s cubic-bezier(0.77, 0, 0.175, 1);
+  //   .btn-search {
+  //     padding: 0 10px;
+  //     cursor: pointer;
+  //     svg {
+  //       display: block;
+  //       fill: #333;
+  //     }
+  //   }
+  // }
+  // Colors
+$brand-primary: #bdc1c8;
+$brand-secondary: #bdc1c8;
+$gray: #6b7381;
+$gray-light: lighten($gray, 15%);
+$gray-lighter: lighten($gray, 30%);;
+
+// Button Colors
+$btn-default-color: $gray;
+$btn-default-bg: $gray-lighter;
+
+// Toggle Sizes
+$toggle-default-size: 1.5rem;
+$toggle-default-label-width: 4rem;
+$toggle-default-font-size: .75rem;
+
+
+
+
+// Mixin for Switch Colors
+// Variables: $color, $bg, $active-bg
+@mixin toggle-color($color: $btn-default-color, $bg: $btn-default-bg, $active-bg: $brand-primary){
+  color: $color;
+  background: $bg;
+  &:before,
+  &:after {
+    color: $color;
+  }
+  &.active {
+    background-color: $active-bg;
+  }
+}
+
+// Mixin for Default Switch Styles
+// Variables: $size, $margin, $color, $bg, $active-bg, $font-size
+@mixin toggle-mixin($size: $toggle-default-size, $margin: $toggle-default-label-width, $font-size: $toggle-default-font-size){
+  // color: $color;
+  // background: $bg;
+  margin: 0 $margin;
+  padding: 0;
+  position: relative;
+  border: none;
+  height: $size;
+  width: $size * 2;
+  border-radius: $size !important;
+
+  &:focus,
+  &.focus {
+    &,
+    &.active {
+      outline: none;
+    }
+  }
+
+  &:before,
+  &:after {
+    line-height: $size;
+    width: $margin;
+    text-align: center;
+    font-weight: 600;
+    // color: $color;
+    font-size: $font-size;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 0;
+    transition: opacity .25s;
+  }
+  &:before {
+    content: 'Light';
+    left: -$margin;
+  }
+  &:after {
+    content: 'Night';
+    right: -$margin;
+    opacity: .5;
+  }
+
+  > .handle {
+    position: absolute;
+    top: ($size * .25) / 2;
+    left: ($size * .25) / 2;
+    width: $size * .75;
+    height: $size * .75;
+    border-radius: $size * .75;
+    background: #fff;
+    transition: left .25s;
+  }
+  &.active {
+    transition: background-color .25s;
+    > .handle {
+      left: $size + (($size * .25) / 2);
+      transition: left .25s;
+    }
+    &:before {
+      opacity: .5;
+    }
+    &:after {
+      opacity: 1;
+    }
+  }
+
+  &.btn-sm {
+    &:before,
+    &:after {
+      line-height: $size;
+      color: #fff;
+      letter-spacing: .75px;
+      left: $size * .275;
+      width: $size * 1.55;
+    }
+    &:before {
+      text-align: right;
+    }
+    &:after {
+      text-align: left;
+      opacity: 0;
+    }
+    &.active {
+      &:before {
+        opacity: 0;
+      }
+      &:after {
+        opacity: 1;
+      }
+    }
+  }
+
+  &.btn-xs {
+    &:before,
+    &:after {
+      display: none;
+    }
+  }
+}
+
+
+
+// Apply Mixin to different sizes & colors
+.btn-toggle {
+
+  @include toggle-mixin;
+  @include toggle-color;
+
+  &.btn-lg {
+    @include toggle-mixin($size: 2.5rem, $font-size: 1rem, $margin: 5rem);
+  }
+
+  &.btn-sm {
+    @include toggle-mixin($font-size: 55rem, $margin: 5rem);
+  }
+
+  &.btn-xs {
+    @include toggle-mixin($size:1rem,$margin:0);
+  }
+
+  &.btn-secondary {
+    @include toggle-color($active-bg:$brand-secondary);
+  }
+}
+
+
+
+

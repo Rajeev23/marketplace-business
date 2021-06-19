@@ -1,0 +1,94 @@
+// mode of selection
+
+body.light-mode {
+  background-color: #fff;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+body.dark-mode {
+  // background-color: #1a1919;
+  background-color: #cbddc7;
+
+  color: #fff;
+}
+
+
+//selection selector for text
+::selection {
+  background-color: #ff9cf9;
+  color: #fefefe;
+}
+
+@media (max-width: 768px) {
+  .hide-for-mobile{
+  display: none!important;
+  }
+  }
+  
+  @media (min-width: 769px) {
+  .hide-for-desktop{
+  display: none!important;
+  }
+  }
+
+  //Animation 
+.fadeInUp {
+    animation-name: fadeInUp;
+    animation-duration: 0.45s;
+    animation-fill-mode: both;
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .rotateDownRight {
+    animation-name: rotateDownRight;
+    animation-duration: 0.25s;
+    animation-fill-mode: both;
+  }
+  
+  @keyframes rotateDownRight {
+    100% {
+      transform: rotate(-90deg);
+    }
+  }
+  
+  .rotateRightDown {
+    animation-name: rotateRightDown;
+    animation-duration: 0.25s;
+    animation-fill-mode: both;
+  }
+  
+  @keyframes rotateRightDown {
+    0% {
+      transform: rotate(-90deg);
+    }
+  }
+  
+  .fadeOutDown {
+    animation-name: fadeOutDown;
+    animation-duration: 0.45s;
+    animation-fill-mode: both;
+  }
+  
+  @keyframes fadeOutDown {
+    0% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  
+    100% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+  }
+

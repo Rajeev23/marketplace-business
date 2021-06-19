@@ -1,0 +1,27 @@
+.StripeElement {
+  background-color: white;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: rgb(230, 235, 241) 0px 1px 3px 0px;
+  transition: box-shadow 150ms ease;
+  padding: 10px 12px;
+  font-family: $text-font-stack;
+  font-size: 18px;
+
+}
+
+@media(max-width: 768px) {
+  .StripeElement {
+    height: 50px !important;
+  }
+}
+
+.Select-placeholder, .Select-value-label, .Select-value {
+  font-family: $text-font-stack;
+  color: $darker-grey !important;
+}
+
+.ElementsApp input {
+  color: $darker-grey;
+}

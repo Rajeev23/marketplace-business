@@ -1,0 +1,134 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+// 151617 lin black 
+// c1deba  main C1DEBA
+// fbf3eb sec  FBF3EB 
+// d3edf5 light blue 
+// D2CDC8 LIGHT GREY 595754 B
+
+$break-small: 576px;
+$break-med: 768px;
+$break-lg: 992px;
+/// Regular font family
+/// @type List
+$text-font-stack: 'Nunito Sans', sans-serif;
+
+/// Code (monospace) font family
+/// @type List
+$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+
+/// Copy text color
+/// @type Color
+$text-color: #444444 !default;
+
+/// Main brand color
+/// @type Color
+$brand-color: #C1DEBA !default;
+
+/// Secondary Brand color
+/// @type Color
+$secondary-color: #FBF3EB !default;
+
+/// Light grey
+/// @type Color
+$light-grey: #DDDDDD !default;
+
+/// Medium grey
+/// @type Color
+$mid-grey: #999999 !default;
+
+/// Dark grey
+/// @type Color
+$dark-grey: #666666 !default;
+
+$darker-grey: #444444 !default;
+
+
+$primary: $brand-color;
+$primary-hover-color: darken($primary, 3%);
+
+$secondary: $secondary-color;
+
+$body-color: $darker-grey;
+
+$btn-primary-text-color: white;
+
+$btn-box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+
+$border-color: rgba(0,0,0,0.1);
+
+$facebook-color: #3b5998;
+$facebook-color-hover: #3d62aa;
+
+
+/// Container's maximum width
+/// @type Length
+$max-width: 1080px !default;
+$max-width-meduim: 720px !default;
+
+$break-small: 576px;
+$break-medium: 768px;
+$break-large: 992px;
+$break-xlarge: 1200px;
+
+/// Typography Vairables
+
+
+
+$serif-headings-margin-bottom: 1rem;
+$serif-headings-font-family: 'Libre Baskerville', serif;
+$serif-headings-font-weight: 400;
+$serif-headings-line-height: 1.25;
+
+
+
+
+$sans-serif-headings-margin-bottom: 1rem;
+$sans-serif-font-family: $text-font-stack;
+$sans-serif-headings-font-weight: 700;
+$sans-serif-headings-line-height: 1.35;
+
+$headings-color: $darker-grey;
+
+$h1-font-size: 1.75rem;
+$h2-font-size: 1.5rem;
+$h3-font-size: 1.25rem;
+$h4-font-size: 1.25rem;
+$h5-font-size: 1.125rem;
+$h6-font-size: 1rem;
+
+$button-font-family: $text-font-stack;
+
+/// TODO Figure out responsive behaviour for text
+@media screen and (max-width: $break-med) {
+  $h1-font-size: 1.75rem;
+  $h2-font-size: 1.5rem;
+  $h3-font-size: 1.375rem;
+  $h4-font-size: 1.125rem;
+  $h5-font-size: 1.125rem;
+  $h6-font-size: 1rem;
+}
+
+@media screen and (max-width: $break-lg) {
+  $h1-font-size: 2rem;
+  $h2-font-size: 1.75rem;
+  $h3-font-size: 1.5rem;
+  $h4-font-size: 1.25rem;
+  $h5-font-size: 1.125rem;
+  $h6-font-size: 1rem;
+}
+
+
+$outline: $primary auto 1px;
+
+$tooltip-bg: $dark-grey;
+$tooltip-color: #FFFFFF;
+$input-btn-focus-box-shadow:  0 0 0 1px $mid-grey !default;
+
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: 'http://cdn.example.com/assets/';
+$base-url: '/assets/' !default;

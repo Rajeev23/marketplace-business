@@ -1,0 +1,61 @@
+@charset 'UTF-8';
+
+// 1. Configuration and helpers
+@import
+  'abstracts/variables',
+  'abstracts/functions',
+  'abstracts/mixins';
+
+  // 8. Bootstrap
+@import
+  'bootstrap/bootstrap';
+
+// 2. Vendors
+@import
+  'vendor/normalize';
+@import
+  'vendor/slick',
+  'vendor/slick-theme';
+// @import 
+//   'react-datepicker/dist/react-datepicker';
+
+// 3. Base stuff
+@import
+  'base/base',
+  'base/fonts',
+  'base/typography',
+  'base/helpers';
+
+// 4. Layout-related sections
+@import
+  'layout/header',
+  'layout/footer';
+
+// 5. Components
+@import
+  'components/button',
+  'components/card',
+  'components/checkout-heading-panel',
+  'components/form-group',
+  'components/modal',
+  'components/carousel',
+  'components/stripe';
+
+  // @import
+    // '../components/home/heroPanel',
+    
+
+
+// 6. Page-specific styles
+@import
+  'pages/home',
+  'pages/redirect',
+  'pages/aboutus',
+  'pages/newsletters',
+  'components/react-select';
+
+// 7. Themes
+@import
+  'themes/default',
+  'themes/black';
+

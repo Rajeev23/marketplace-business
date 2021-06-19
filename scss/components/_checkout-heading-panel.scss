@@ -1,0 +1,54 @@
+.checkout-top-panel, .checkout-login-panel {
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0 4px 10px 0 rgba(22,22,22,0.08);
+}
+
+.checkout-login-panel-wrapper, .checkout-top-panel-wrapper {
+  padding: 1rem;
+}
+.checkout-title {
+  font-size: 1.3rem;
+  color: $dark-grey;
+  font-weight: 300;
+
+}
+.checkout-beneficiary {
+  color: $primary;
+  font-weight: 400;
+}
+
+.checkout-program {
+  color: $darker-grey;
+  font-weight: 400;
+}
+
+.guest-form {
+  width: 75%;
+}
+
+.checkout-heading {
+  color: $darker-grey;
+  font-size: 1.3rem;
+}
+.small-text {
+  font-size: 0.875rem;
+}
+
+.login-left-panel {
+  padding-right: 1.5rem;
+}
+.login-right-panel {
+  padding-left: 1.5rem;
+}
+
+.left-panel-wrapper {
+  border-right: 1px solid rgba(0,0,0,0.1);
+  height: 100%;
+  padding: 2rem;
+}
+.right-panel-wrapper {
+  padding: 2rem;
+}

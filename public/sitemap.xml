@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://marketplace.com/[slug]</loc>
+    <lastmod>time</lastmod>
+  </url>
+
+  <url>
+    <loc>https://marketplace.com/aboutus</loc>
+    <lastmod>time</lastmod>
+  </url>
+
+  <url>
+    <loc>https://marketplace.com/admin</loc>
+    <lastmod>time</lastmod>
+  </url>
+
+  <url>
+    <loc>https://marketplace.com/blog</loc>
+    <lastmod>time</lastmod>
+  </url>
+
+  <url>
+    <loc>https://marketplace.com/careers</loc>
+    <lastmod>time</lastmod>
+  </url>
+
+  <url>
+    <loc>https://marketplace.com/checkout</loc>
+    <lastmod>time</lastmod>
+  </url>
+
+  <url>
+    <loc>https://marketplace.com/contactus</loc>
+    <lastmod>time</lastmod>
+  </url>
+
+  <url>
+    <loc>https://marketplace.com/dashboad</loc>
+    <lastmod>time</lastmod>
+  </url>
+
+  <url>
+    <loc>https://marketplace.com/faq</loc>
+    <lastmod>time</lastmod>
+  </url>
+
+  <url>
+    <loc>https://marketplace.com/gallery</loc>
+    <lastmod>time</lastmod>
+  </url>
+
+  <url>
+    <loc>https://marketplace.com/give</loc>
+    <lastmod>time</lastmod>
+  </url>
+
+  <url>
+    <loc>https://marketplace.com</loc>
+    <lastmod>time</lastmod>
+  </url>
+
+  <url>
+    <loc>https://marketplace.com/missions</loc>
+    <lastmod>time</lastmod>
+  </url>
+
+  <url>
+    <loc>https://marketplace.com/otpinput</loc>
+    <lastmod>time</lastmod>
+  </url>
+
+  <url>
+    <loc>https://marketplace.com/thankyou</loc>
+    <lastmod>time</lastmod>
+  </url>
+
+  <url>
+    <loc>https://marketplace.com/blog/[slug]</loc>
+    <lastmod>time</lastmod>
+  </url>
+</urlset>

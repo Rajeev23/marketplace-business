@@ -1,0 +1,88 @@
+// -----------------------------------------------------------------------------
+// When having several themes, this file contains everything related to the
+// default one.
+// -----------------------------------------------------------------------------
+.primary-color {
+    color: $primary;
+}
+
+.mid-grey {
+    color: $mid-grey;
+}
+
+.darker-grey {
+    color: $darker-grey;
+}
+
+.grey-200 {
+    background-color: rgb(247, 247, 246);
+}
+
+.container-fluid {
+    padding: 0;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.row-margins {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.w1080p {
+    @media screen and (min-width: $break-medium) and (max-width: $break-large) {
+        max-width: $max-width-meduim;
+    }
+    @media screen and (min-width: $break-large) {
+        max-width: $max-width;
+    }
+}
+
+.w1180p {
+    @media screen and (min-width: $break-medium) and (max-width: $break-large) {
+        max-width: 800px;
+    }
+    @media screen and (min-width: $break-large) {
+        max-width: 1180px;
+    }
+}
+
+.icon-ic_chat_icon {
+    color: white !important;
+}
+
+.white-text {
+    color: white;
+}
+
+.red-text {
+    color: red;
+}
+.black-text {
+  color: #444444;
+}
+.underline-text {
+    text-decoration: underline;
+}
+
+.slow-campaign-transition {
+    transition: all .55s ease;
+}
+
+.monochrome-filter {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.opacity-60 {
+    filter: opacity(60%);
+}
+
+.h-100 {
+    height: 100% !important;
+}

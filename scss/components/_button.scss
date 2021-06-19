@@ -1,0 +1,272 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+.btn {
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+  font-family: $button-font-family;
+  cursor: pointer;
+}
+
+.btn-primary {
+  color: white;
+  &:hover {
+    background-color: $primary-hover-color;
+    border-color: $primary-hover-color;
+  }
+}
+
+.btn-dark {
+  color: white;
+  background-color: $dark-grey;
+  border-color: $dark-grey;
+  &:hover {
+    background-color: $darker-grey;
+    border-color: $darker-grey;
+  }
+}
+
+.btn-mid-grey {
+  color: white;
+  background-color: $mid-grey;
+  border-color: $mid-grey;
+  &:hover {
+    background-color: $mid-grey;
+    border-color: $mid-grey;
+  }
+}
+.btn-secondary {
+  color: white;
+}
+
+.btn-outline-secondary {
+  background: transparent;
+  color: $secondary;
+  border-color: $secondary;
+  &:hover {
+    background-color: $secondary;
+    color: white;
+  }
+}
+
+.btn-outline-dark {
+  color: $dark-grey;
+  background: transparent;
+  border-color: $mid-grey;
+  box-shadow: none;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  padding-right: 0.6rem;
+  padding-left: 0.6rem;
+  &:hover {
+    border-color: $darker-grey;
+    background: transparent;
+    color: $darker-grey;
+  }
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.btn-outline-mid-grey {
+  color: $mid-grey;
+  background: transparent;
+  border-color: rgba(0,0,0,0.1);
+  box-shadow: none;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  padding-right: 0.6rem;
+  padding-left: 0.6rem;
+  &:hover {
+    border-color: $dark-grey;
+    background: transparent;
+    color: $dark-grey;
+  }
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.btn-full-width {
+      width: 100%;
+}
+
+.btn-facebook {
+  color: white;
+  background-color: $facebook-color;
+  border-color: $facebook-color;
+  &:hover {
+    background-color: $facebook-color-hover;
+    border-color: $facebook-color-hover;
+  }
+}
+
+.btn-facebook-outline {
+  color: $facebook-color;
+  background-color: transparent;
+  border-color: $facebook-color;
+  box-shadow: none;
+  &:hover {
+    color: white;
+    background-color: $facebook-color-hover;
+    border-color: $facebook-color-hover;
+  }
+}
+
+$linkedin-color: #0077B5;
+$linkedin-color-hover: #0076B7;
+.btn-linkedin {
+  color: white;
+  background-color: $linkedin-color;
+  border-color: $linkedin-color;
+  &:hover {
+    background-color: $linkedin-color-hover;
+    border-color: $linkedin-color-hover;
+  }
+}
+
+.btn-linkedin-outline {
+  color: $linkedin-color;
+  background-color: white;
+  border-color: $linkedin-color;
+  &:hover {
+    background-color: white;
+    border-color: $linkedin-color-hover;
+  }
+}
+
+$twitter-color: #00ACED;
+$twitter-color-hover: #1DCAFF;
+.btn-twitter {
+  color: white;
+  background-color: $twitter-color;
+  border-color: $twitter-color;
+  &:hover {
+    background-color: $twitter-color-hover;
+    border-color: $twitter-color-hover;
+  }
+}
+
+.btn-twitter-outline {
+  color: $twitter-color;
+  background-color: white;
+  border-color: $twitter-color;
+  &:hover {
+    background-color: white;
+    border-color: $twitter-color-hover;
+  }
+}
+
+$email-color:#FEBF02;
+$email-color-hover: #FECA0E;
+.btn-email {
+  color: white;
+  background-color: $email-color;
+  border-color: $email-color;
+  &:hover {
+    background-color: $email-color-hover;
+    border-color: $email-color-hover;
+  }
+}
+
+.btn-email-outline {
+  color: $email-color;
+  background-color: white;
+  border-color: $email-color;
+  &:hover {
+    color: $email-color;
+    background-color: white;
+    border-color: $email-color-hover;
+  }
+}
+
+$whatsapp-color: #25D366;
+$whatsapp-color-hover: #26D467;
+.btn-whatsapp {
+  color: white;
+  background-color: $whatsapp-color;
+  border-color: $whatsapp-color;
+  &:hover {
+    background-color: $whatsapp-color-hover;
+    border-color: $whatsapp-color-hover;
+  }
+}
+
+$fundraiser-color: #A2ABB5;
+$fundraiser-color-hover: #A3ACB6;
+.btn-fundraiser {
+  color: white;
+  background-color: $fundraiser-color;
+  border-color: $fundraiser-color;
+  &:hover {
+    background-color: $fundraiser-color-hover;
+    border-color: $fundraiser-color-hover;
+  }
+}
+
+.btn-fat {
+  padding: 0.75rem;
+}
+
+.hoverUnderline {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.btn a {
+  color: currentColor;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.animate-hover {
+  transition: all .15s ease;
+  &:hover {
+    transform: translateY(-1px);
+  }
+}
+
+.btn {
+  transition: all .15s ease;
+  &:hover {
+    transform: translateY(0px);
+  }
+}
+
+.no-hover {
+  transition: all .15s ease;
+  &:hover {
+    transform: translateY(0);
+  }
+}
+
+.no-outline {
+  &:focus {
+    box-shadow: none;
+  }
+  &:active {
+    box-shadow: none !important;
+  }
+}
+
+.no-shadow {
+  box-shadow: none !important;
+}
+
+.btn-facebook {
+  .gi-facebook-fill {
+    fill: white;
+  }
+}
+
+.btn-facebook-outline {
+  .gi-facebook-fill {
+    fill: $facebook-color;
+  }
+  &:hover {
+    .gi-facebook-fill {
+      fill: white;
+    }
+  }
+}

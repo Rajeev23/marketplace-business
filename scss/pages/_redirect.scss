@@ -1,0 +1,45 @@
+.welcome-text-row {
+  text-align: center;
+  width: 55%;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  display: block;
+  margin-top: -150px;
+}
+
+.redirect-img {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+  width: 70%;
+  height: 100%;
+}
+
+.underline-hr {
+  text-align: center;
+  width: 40%;
+  margin-top: 6px;
+  color: rgb(235, 136, 136);
+  border-color: rgb(235, 136, 136);
+  border-style: solid;
+}
+
+.redirect-button {
+  font-size: 20px;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .redirect-img {
+    width: 100%;
+    margin-top: 0px;
+  }
+  .welcome-text-row {
+    margin-top: -40px;
+    width: 80%;
+  }
+  .redirect-button {
+    font-size: 20px;
+    margin-top: 1rem;
+  }
+}
