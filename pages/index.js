@@ -24,8 +24,8 @@ export default function Home(props) {
         <meta property="og:title" content="My page title" key="title" />
       </Head>
       <main>
-      <h1>this is me 
-
+      <h1> This is new site for buiness
+        
       </h1>
       </main>
       <style jsx>{`
