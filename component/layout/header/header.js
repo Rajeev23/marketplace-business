@@ -109,6 +109,9 @@ class Header extends Component {
         </div>
         <style global jsx>
           {`
+          .bg-light{
+            background-color: #fff!important;
+          }
             .navbar.navbar-custom {
               // padding: 0rem 1rem!important;
             }
@@ -141,12 +144,12 @@ class Header extends Component {
               text-decoration: none;
             }
 
-            .cool-link::after {
+            .cool-link::after { 
               content: "";
               display: block;
               width: 0;
               height: 2px;
-              background: #fe9cf8;
+              background: #C1DEBA;
               transition: width 0.3s;
             }
 

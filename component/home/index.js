@@ -1,4 +1,4 @@
-// export { default as Achievements } from './achievements';
+export { default as Hero } from './hero';
 
 
 

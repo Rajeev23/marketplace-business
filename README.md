@@ -22,3 +22,9 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 ## Learn More
 
 npm install --save @zeit/next-sass node-sass
+
+// 151617 lin black 
+// c1deba  main #C1DEBA
+// fbf3eb sec  FBF3EB 
+// d3edf5 light blue 
+// D2CDC8 LIGHT GREY 595754 B

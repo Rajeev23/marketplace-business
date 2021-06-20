@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component, Fragment } from "react";
 import Logo from '../partials/Logo';
 import { Row, Col, Container } from 'reactstrap';
 import FacebookIcon from '../partials/facebook';
@@ -7,11 +7,12 @@ import InstagramIcon from '../partials/instagramIcon';
 import LinkedinIcon from '../partials/linkedinIcon';
 // import ToggleButton from './toggle';
 import * as Icon from 'react-feather';
-// import './_layout.scss'
+import './_footer.scss'
 
 
 
-export default class Footer extends React.Component {
+class Footer extends Component {
+
 	constructor(props) {
 		super(props);
 		let darkMode = 'Light';
@@ -36,155 +37,104 @@ export default class Footer extends React.Component {
 	};
 
 	render() {
-        const {darkMode} = this.props
+		const { darkMode } = this.props
 		return (
-			<Container fluid  className="footer" id="footer"  style={{}}>
-        {/* <Logo/> */} 
-				<Row className="footer-top  d-flex" style={{ paddingTop: '2rem' }}>
-					<Col xs="12" md="4" lg="3" sm="12" className="d-flex justify-content-center align-self-center footer-height-for-mobile  ">
-						<Row className="footer-column" >
-							<Col className="footer-panel-f3" xs="12" style={{ overflow: 'hidden' }}>
-								<Row >
-									<Col xs="4" md="6" className="footer-right">
-										<p>
-											<a href="/dashboad" className="no-hover-a footer-link">User</a>
-										</p>
-									</Col>
-									<Col xs="4" md="6" className="footer-right">
-										<p>
-											<a href="/missions" className="no-hover-a footer-link">Campaign</a>
-										</p>
-									</Col>
-									<Col xs="4" md="6" className="footer-right">
-										<p>
-											<a href="/help" className="no-hover-a footer-link">Help</a>
-										</p>
-									</Col>
-									<Col xs="4" md="6" className="footer-right">
-										<p>
-											<a href="/contactus" className="no-hover-a footer-link">Contact Us</a>
-										</p>
-									</Col>
-									<Col xs="4" md="6" className="footer-right">
-										<p>
-											<a href="" className="no-hover-a footer-link">hello4</a>
-										</p>
-									</Col>
-									<Col xs="4" md="6" className="footer-right">
-										<p>
-											<a href="/careers" className="no-hover-a footer-link">wooo</a>
-										</p>
-									</Col>
-									
-								</Row>
-							</Col>
-						</Row>
-					</Col>
-					<Col className="footer-logo p-0" xs="12" md="4" lg="7" sm="12">
-					
-					{/* <ToggleButton
-					{...{darkMode}}
-					classNames={this.state.toggle ? 'btn btn-toggle active no-hover' : 'btn btn-toggle no-hover'}
-					/> */}
+			<div id="footer" style={{}}>
+				<div className="footer-top">
+					<div className="container">
+						<div className="row">
+							<div className="col-lg-3 col-md-6 footer-contact">
+								<h3>Rajeev</h3>
+								<p>
+									BTM 2nd Satge <br />
+									Banglore, KA 560076<br />
+									India <br /><br />
+									<strong>Phone:</strong> +91-8590884203<br />
+									<strong>Email:</strong> marketpalce@business.com<br />
+								</p>
+							</div>
 
-					</Col>
-					<Col className="ml-auto currency-input align-self-center " xs="12" md="4" lg="2" sm="12">
-          {/* <Logo/> */}
-					</Col>
-				</Row>
-				{/* <Row className="partners-logo-panel footer-bottom d-flex f-d-col">
-					<p className="test-muted">Partners</p>
-					<div className="mb-2">
-						<img src={`${config.cdnUrl}/static/images/partners/logo/fankind_logo.svg`} />
-					</div>
-				</Row> */}
+							<div className="col-lg-3 col-md-6 footer-links">
+								<h4>Useful Links</h4>
+								<ul>
+									<li><Icon.ChevronRight color={'#C1DEBA'} height={'15'} /> <a href="#">Home</a></li>
+									<li><Icon.ChevronRight color={'#C1DEBA'} height={'15'} /> <a href="#">About us</a></li>
+									<li><Icon.ChevronRight color={'#C1DEBA'} height={'15'} /> <a href="#">Services</a></li>
+									<li><Icon.ChevronRight color={'#C1DEBA'} height={'15'} /> <a href="#">Terms of service</a></li>
+									<li><Icon.ChevronRight color={'#C1DEBA'} height={'15'} /> <a href="#">Privacy policy</a></li>
+								</ul>
+							</div>
 
-				<Row className="footer-bottom">
-				
-					{/* hello conten */}
-					<div className="footer-bottom-left">
-						<p> <span className="footer-mobile_view">© Copyright {(new Date().getDate())}:{(new Date().getFullYear())} @Rajeev Nayan. All rights reserved. </span>  &nbsp; &nbsp; &nbsp; &nbsp; <span className="footer-mobile_view"></span> </p>
-						  
-						 <style jsx>{
-							`
-								.footer-exempted-span {
+							<div class="col-lg-3 col-md-6 footer-links">
+								<h4>Our Services</h4>
+								<ul>
+									<li><Icon.ChevronRight color={'#C1DEBA'} height={'15'} /> <a href="#">Web Design</a></li>
+									<li><Icon.ChevronRight color={'#C1DEBA'} height={'15'} /> <a href="#">Web Development</a></li>
+									<li><Icon.ChevronRight color={'#C1DEBA'} height={'15'} /> <a href="#">Product Management</a></li>
+									<li><Icon.ChevronRight color={'#C1DEBA'} height={'15'} /> <a href="#">Marketing</a></li>
+									<li><Icon.ChevronRight color={'#C1DEBA'} height={'15'} /> <a href="#">Graphic Design</a></li>
+								</ul>
+							</div>
 
-							    padding-bottom: 0;
-							    padding-top: 10px;
-									width: 100%;
-								}
+							<div class="col-lg-3 col-md-6 footer-links">
+								<h4>Our Social Networks</h4>
+								<p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+								<div class="social-links mt-3">
+									<a rel="noopener noreferrer" href="https://www.facebook.com/" target="_blank">
+										<FacebookIcon
+											style={{ color: '#C1DEBA', display: 'flex', alignItems: 'center' }}
+											size={20}
+											color="#C1DEBA"
+										/>
+									</a>
 
-							`
-						}
-						</style>
+									<a rel="noopener noreferrer" href="https://twitter.com/" target="_blank">
+										<TwitterIcon
+											style={{ display: 'flex', alignItems: 'center' }}
+											size={20}
+											color="#C1DEBA"
+										/>
+									</a>
+
+									<a rel="noopener noreferrer" href="https://www.instagram.com/" target="_blank">
+										<InstagramIcon
+											style={{ display: 'flex', alignItems: 'center' }}
+											size={20}
+											color="#C1DEBA"
+										/>
+									</a>
+
+									<a rel="noopener noreferrer" href="https://www.linkedin.com/" target="_blank">
+										<LinkedinIcon
+											style={{ display: 'flex', alignItems: 'center' }}
+											size={20}
+											color="#C1DEBA"
+										/>
+									</a>
+								</div>
+							</div>
 
 
-					</div>
-					<div className="footer-bottom-right ">
-						<span>
-							{/* <a className="no-hover-a" href="/"><p>Terms  </p></a> */}
-						</span>
-						<span>
-						<SunMoon {...{darkMode}} /> 
-						</span>
-						<span>
-							<a href="/sitemap.xml"><p>Site Map</p></a>
-						</span>
-						<div className="footer-bottom_mobile">
-						<span>
-							<a rel="noopener noreferrer" href="https://www.facebook.com/" target="_blank">
-								<FacebookIcon
-									style={{ color: 'red', display: 'flex', alignItems: 'center' }}
-									size={20}
-									color="#00B5F3"
-								/>
-							</a>
-						</span>
-						<span>
-							<a rel="noopener noreferrer" href="https://twitter.com/" target="_blank">
-								<TwitterIcon
-									style={{ display: 'flex', alignItems: 'center' }}
-									size={20}
-									color="#00B5F3"
-								/>
-							</a>
-						</span>
-						<span>
-							<a rel="noopener noreferrer" href="https://www.instagram.com/" target="_blank">
-								<InstagramIcon
-									style={{ display: 'flex', alignItems: 'center' }}
-									size={20}
-									color="#00B5F3"
-								/>
-							</a>
-						</span><span>
-							<a rel="noopener noreferrer" href="https://www.linkedin.com/" target="_blank">
-								<LinkedinIcon
-									style={{ display: 'flex', alignItems: 'center' }}
-									size={20}
-									color="#00B5F3"
-								/>
-							</a>
-						</span>
+
 						</div>
 					</div>
-				</Row>
-				
+				</div>
+				<div class="container footer-bottom clearfix">
+					<div class="copyright">
+						&copy; Copyright <strong><span>Arsha</span></strong>. All Rights Reserved
+					</div>
+					<div class="c#C1DEBAits">
 
-			</Container>
+						Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+					</div>
+				</div>
+
+			</div>
 		);
 	}
 }
 
+export default Footer;
 
-const SunMoon = ({darkMode,props}) => {
-	return (
-	  <div className="SunMoon" onClick={darkMode.toggle} style={{cursor: 'pointer'}}>
-		<div>
-		{darkMode.value ? <Icon.Sun color={'#ffc107'} /> : <Icon.Moon />}
-		</div>
-	  </div>
-	);
-  };
 
- 
+

@@ -4,18 +4,15 @@ import { useState, useEffect, lazy } from 'react';
 import dynamic from 'next/dynamic'
 import axios from 'axios';
 import Fade from 'react-reveal/Fade';
-// import {
-  
-// } from '../component/home/index';
-import CampaignImapact from '../component/missions/campaignImapact'
-import  Quantity from '../component/core/test'
+import { Hero} from '../component/home/index';
+
 // import NavTest from '../component/layout/testheader';
 
 export default function Home(props) {
 
 
   return (
-    <Container fluid  >
+    <Container fluid className="p-0"  >
       <Head>
         <title>Home</title>
         {/* <link rel="icon" href="/favicon.ico" /> */}
@@ -24,9 +21,7 @@ export default function Home(props) {
         <meta property="og:title" content="My page title" key="title" />
       </Head>
       <main>
-      <h1> This is new site for buiness
-        
-      </h1>
+      <Hero/>
       </main>
       <style jsx>{`
         .my{

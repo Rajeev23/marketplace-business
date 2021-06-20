@@ -1,5 +1,5 @@
 import React from 'react'
-import Document, { Head, Main, NextScript } from 'next/document'
+import Document, { Html, Head, Main, NextScript } from 'next/document'
 
 
 export default class extends Document {
@@ -8,17 +8,17 @@ export default class extends Document {
 
 
     return (
-      <html>
-        <Head>                   
+      <Html>
+        <Head>
 
-         
+
         </Head>
         <body>
-        <script href="./noflash.js" />
+          <script href="./noflash.js" />
           <Main />
           <NextScript />
         </body>
-      </html>
+      </Html>
     )
   }
 }

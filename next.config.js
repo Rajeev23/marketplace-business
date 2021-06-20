@@ -10,11 +10,13 @@ module.exports = withSass({
     // if (publicRuntimeConfig){
     //   require('CDN_URL: process.env.CDN_URL');
     // }
-  
+    
+    
     return config;
   }
   
 })
+
 
 
 
