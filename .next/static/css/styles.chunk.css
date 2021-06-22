@@ -9050,3 +9050,139 @@ body.dark-mode {
     .sfb-container .sfb-container-left .sfb-content {
       text-align: center; } }
 
+.donor-testimonials-wrapper {
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 40px 0 60px; }
+
+.donor-testimonials .dtm-header {
+  margin: 0 0 30px; }
+  .donor-testimonials .dtm-header h2 {
+    font-size: 1.5rem; }
+  .donor-testimonials .dtm-header .dtm-header-bar {
+    width: 50px;
+    height: 3px;
+    background-color: #ff5050; }
+
+.donor-testimonials .dtm-items-container {
+  position: relative; }
+
+.donor-testimonials .dtm-items {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .donor-testimonials .dtm-items .dtm-items-img {
+    width: 48%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .donor-testimonials .dtm-items .dtm-items-img img {
+      width: 100%;
+      height: 100%;
+      border-radius: 8px; }
+  .donor-testimonials .dtm-items .dtm-items-content {
+    width: 48%;
+    flex-grow: 0; }
+    .donor-testimonials .dtm-items .dtm-items-content .dtm-items-cta {
+      color: #ff5050;
+      font-size: 1.25rem;
+      margin: 20px 0 0;
+      display: inline-block; }
+    .donor-testimonials .dtm-items .dtm-items-content .dtm-beneficiary {
+      display: flex;
+      align-items: center;
+      margin: 20px 0 0; }
+      .donor-testimonials .dtm-items .dtm-items-content .dtm-beneficiary .img-wrapper {
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 15px 0 0; }
+        .donor-testimonials .dtm-items .dtm-items-content .dtm-beneficiary .img-wrapper img {
+          height: 100%; }
+      .donor-testimonials .dtm-items .dtm-items-content .dtm-beneficiary .dtm-beneficiary-bio h3 {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin: 0 0 6px; }
+      .donor-testimonials .dtm-items .dtm-items-content .dtm-beneficiary .dtm-beneficiary-bio h4 {
+        color: #777777;
+        font-size: .87rem;
+        text-transform: capitalize; }
+      .donor-testimonials .dtm-items .dtm-items-content .dtm-beneficiary .dtm-beneficiary-bio span {
+        color: #666666; }
+
+.donor-testimonials .slick-dots {
+  bottom: -50px; }
+  .donor-testimonials .slick-dots ul {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .donor-testimonials .slick-dots ul li {
+      margin: 0 10px 0 0; }
+      .donor-testimonials .slick-dots ul li .dot-item {
+        width: 8px;
+        height: 8px;
+        border-radius: 4px;
+        background-color: #c4c4c4; }
+      .donor-testimonials .slick-dots ul li:last-child {
+        margin: 0; }
+      .donor-testimonials .slick-dots ul li.slick-active .dot-item {
+        background-color: #ff5050; }
+
+.donor-testimonials .dtm-arrow {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 6px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  cursor: pointer; }
+  .donor-testimonials .dtm-arrow .dtm-arrow-svg {
+    width: 22px;
+    fill: #ff5050; }
+
+.donor-testimonials .dtm-arrow:hover {
+  background-color: #ff5050; }
+  .donor-testimonials .dtm-arrow:hover .dtm-arrow-svg {
+    fill: #ffffff; }
+
+.donor-testimonials .arrow-prev {
+  left: -8%;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.donor-testimonials .arrow-next {
+  right: -8%;
+  top: 50%;
+  transform: translateY(-50%); }
+
+@media (max-width: 1199px) {
+  .donor-testimonials .dtm-items .dtm-items-content p {
+    font-size: 1rem; }
+  .donor-testimonials .dtm-items .dtm-items-content .dtm-items-cta {
+    font-size: 1.12rem;
+    margin: 10px 0 0; }
+  .donor-testimonials .dtm-items .dtm-items-content .dtm-beneficiary {
+    margin: 10px 0 0; } }
+
+@media (max-width: 1023px) {
+  .donor-testimonials .dtm-items {
+    flex-direction: column; }
+    .donor-testimonials .dtm-items .dtm-items-img {
+      width: 100%;
+      margin: 0 0 20px; }
+    .donor-testimonials .dtm-items .dtm-items-content {
+      width: 100%; }
+  .donor-testimonials .dtm-arrow {
+    display: none; }
+  .donor-testimonials .slick-dots ul li {
+    font-size: 1.12rem; } }
+

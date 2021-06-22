@@ -4,7 +4,7 @@ import { useState, useEffect, lazy } from 'react';
 import dynamic from 'next/dynamic'
 import axios from 'axios';
 import Fade from 'react-reveal/Fade';
-import { Hero} from '../component/home/index';
+import { Hero, Testimonial} from '../component/home/index';
 
 // import NavTest from '../component/layout/testheader';
 
@@ -22,6 +22,7 @@ export default function Home(props) {
       </Head>
       <main>
       <Hero/>
+      <Testimonial/>
       </main>
       <style jsx>{`
         .my{
